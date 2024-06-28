@@ -1,6 +1,6 @@
 {
     "name": "dwijitsolutions/laraadmin",
-    "version": "1.1.0",
+    "version": "2.0.0",
     "type": "project",
     "description": "LaraAdmin is a Open source Laravel Admin Panel / CMS which can be used as Admin Backend, Data Management Tool or CRM boilerplate for Laravel with features like CRUD Generation, Module Manager, Media, Menus, Backups and much more",
     "keywords": [
@@ -18,27 +18,24 @@
         "source": "https://github.com/dwijitsolutions/laraadmin"
     },
     "require": {
-        "php": "^7.3|^8.0",
+        "php": "^8.3",
         "doctrine/dbal": "^3.5",
-        "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
-        "laraadmin/entrust": "6.0.3",
-        "laravel/framework": "^8.75",
-        "laravel/sanctum": "^2.11",
-        "laravel/tinker": "^2.5",
-        "laravel/ui": "^3.4",
-        "laravelcollective/html": "^6.3",
-        "spatie/laravel-backup": "^6.16",
-        "yajra/laravel-datatables-oracle": "^9.21"
+        "laravel/framework": "^11.0.0",
+        "laravel/sanctum": "^4.0",
+        "laravel/tinker": "^2.9",
+        "laravel/ui": "^4.5.2",
+        "spatie/laravel-html": "^3.9.0",
+        "spatie/laravel-backup": "^8.8.0",
+        "yajra/laravel-datatables-oracle": "^11.0"
     },
     "require-dev": {
-        "facade/ignition": "^2.5",
         "fakerphp/faker": "^1.9.1",
         "friendsofphp/php-cs-fixer": "^3.14",
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.4",
-        "nunomaduro/collision": "^5.10",
-        "phpunit/phpunit": "^9.5.10"
+        "nunomaduro/collision": "^8.1.0",
+        "phpunit/phpunit": "^11.0.0"
     },
     "authors": [
         {

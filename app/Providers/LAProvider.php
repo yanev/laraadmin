@@ -133,11 +133,11 @@ class LAProvider extends ServiceProvider
         */
 
         // Collective HTML & Form Helper
-        $this->app->register(\Collective\Html\HtmlServiceProvider::class);
+        // $this->app->register(\Collective\Html\HtmlServiceProvider::class);
         // For Datatables
         $this->app->register(\Yajra\Datatables\DatatablesServiceProvider::class);
         // For Entrust
-        $this->app->register(\Laraadmin\Entrust\EntrustServiceProvider::class);
+        // $this->app->register(\Laraadmin\Entrust\EntrustServiceProvider::class);
         // For Spatie Backup
         $this->app->register(\Spatie\Backup\BackupServiceProvider::class);
 
@@ -150,8 +150,8 @@ class LAProvider extends ServiceProvider
         $loader = AliasLoader::getInstance();
 
         // Collective HTML & Form Helper
-        $loader->alias('Form', \Collective\Html\FormFacade::class);
-        $loader->alias('HTML', \Collective\Html\HtmlFacade::class);
+        // $loader->alias('Form', Spatie\Html\Facades\Form);
+        $loader->alias('HTML', \Spatie\Html\Facades\Html::class);
 
         // For LaraAdmin Code Generation
         $loader->alias('CodeGenerator', \App\Helpers\CodeGenerator::class);
